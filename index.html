@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <div style="margin: 20px auto; width: 70%; border: 3px double gray; border-radius: 20px; padding: 20px;">
+            <div id="el">
+                <form>
+                    <input id="srch" type="text" placeholder="Search"/>
+                    <button id="btn" type="submit">Submit</button>
+                </form>
+                <div>
+                    <select id="sort" style="margin-left: 5px;">
+                        <option selected value="stars">STARS</option>
+                        <option value="forks">FORKS</option>
+                        <option value="help-wanted-issues">HELP-WANTED-ISSUES</option>
+                    </select>
+                    <select id="order" style="margin-left: 5px;">
+                        <option selected value="desc">DESC</option>
+                        <option value="asc">ASC</option>
+                    </select>
+                </div>
+            </div>
+            <div id="resaultContainer">
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
